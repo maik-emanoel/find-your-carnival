@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encontre seu Carnaval</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="home">
+        <div class="content">
+            <p>find your block</p>
+            <h1>Encontre os <span>melhores blocos</span> de carnaval de 2023</h1>
+        </div>
+
+        <form>
+            <div id="searchContainer">
+                <input type="text" name="search-name" id="search-name" placeholder="Pesquisar por nome" autocomplete="off">
+                <select name="states" id="states">
+                    <option value="">Selecione uma estado</option>
+                </select>
+                <select name="cities" id="cities">
+                    <option value="">Selecione uma cidade</option>
+                </select>
+            </div>
+            
+            <button id="searchBtn" disabled>Buscar agora</button>
+        </form>
+    </div>
+
+    <main>
+        <header>
+            <h2>Blocos recomendados</h2>
+            <span>Lista</span>
+        </header>
+
+        <div id="cards">
+            <div class="card">
+                <img src="./assets/img1.svg" alt="">
+                <div class="container">
+                    <h3>O Python do vovô não sobe mais</h3>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                    <div class="spot">
+                        <img src="./assets/locationIcon.svg" alt="Ícone de localização">
+                        <span class="city">São Paulo - SP</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/img2.svg" alt="">
+                <div class="container">
+                    <h3>Todo mundo null</h3>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                    <div class="spot">
+                        <img src="./assets/locationIcon.svg" alt="Ícone de localização">
+                        <span class="city">Florianópolis - SC</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/img3.svg" alt="">
+                <div class="container">
+                    <h3>Hoje dou exception</h3>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                    <div class="spot">
+                        <img src="./assets/locationIcon.svg" alt="Ícone de localização">
+                        <span class="city">Curitiba - PR</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/img4.svg" alt="">
+                <div class="container">
+                    <h3>Manda Node</h3>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                    <div class="spot">
+                        <img src="./assets/locationIcon.svg" alt="Ícone de localização">
+                        <span class="city">Salvador - BA</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/img5.svg" alt="">
+                <div class="container">
+                    <h3>Só no back-end</h3>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                    <div class="spot">
+                        <img src="./assets/locationIcon.svg" alt="Ícone de localização">
+                        <span class="city">Recife - PE</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/img6.svg" alt="">
+                <div class="container">
+                    <h3>Esse anel não é de Ruby</h3>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                    <div class="spot">
+                        <img src="./assets/locationIcon.svg" alt="Ícone de localização">
+                        <span class="city">Fortaleza - CE</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/img7.svg" alt="">
+                <div class="container">
+                    <h3>Pimenta no C# dos outros é refresco</h3>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                    <div class="spot">
+                        <img src="./assets/locationIcon.svg" alt="Ícone de localização">
+                        <span class="city">Rio de Janeiro - RJ</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/img8.svg" alt="">
+                <div class="container">
+                    <h3>EnCACHE aqui</h3>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                    <div class="spot">
+                        <img src="./assets/locationIcon.svg" alt="Ícone de localização">
+                        <span class="city">Porto Alegre - RS</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/img9.svg" alt="">
+                <div class="container">
+                    <h3>Não valho nada mas JAVA li</h3>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                    <div class="spot">
+                        <img src="./assets/locationIcon.svg" alt="Ícone de localização">
+                        <span class="city">Natal - RN</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+</html>
