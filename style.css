@@ -180,10 +180,18 @@ main #cards .card {
     border-radius: 10px;
     border: 1px solid var(--card-border-color);
     height: 100%;
+
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+#cards:has(.card:hover) .card:not(:hover) {
+    opacity: .6;
+    transform: scale(.8);
 }
 
 main #cards .card .container {
-    padding: 16px 16px 16px 16px;
+    padding: 16px;
     display: flex;
     flex-direction: column;
     gap: 16px;
