@@ -23,5 +23,5 @@ Após o desenvolvimento do projeto inicial, adicionei novas features, tais quais
 - Consumo de API fornecida pelo IBGE para pegar os dados dos estados e cidades do Brasil
 - Select dinâmico, onde as cidades aparecem de acordo com o estado escolhido
 - Layout responsivo (Adaptado para telas menores)
-- Efeito hover nos cards
+- Efeito hover nos cards utilizando nova pseudo-class ":has()"
 - Entre outras pequenas mudanças.
