@@ -31,4 +31,8 @@ cities.addEventListener('change', function activateSearchBtn() {
     }
 })
 
+searchBtn.addEventListener('click', function addAlertMessage() {
+    alert('Procurando seu bloco, aguarde... (Mensagem meramente ilustrativa)')
+})
+
 
