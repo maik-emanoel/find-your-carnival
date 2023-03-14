@@ -101,6 +101,15 @@ body {
     background-size: 20px 20px;
 }
 
+#search-name:focus {
+    outline: 1.5px solid var(--purple);
+}
+
+#states:focus,
+#cities:focus {
+    outline: 1.5px solid var(--purple);
+}
+
 #states {
     width: 210px;
 }
@@ -186,8 +195,8 @@ main #cards .card {
 }
 
 #cards:has(.card:hover) .card:not(:hover) {
-    opacity: .6;
-    transform: scale(.8);
+    opacity: .75;
+    transform: scale(.9);
 }
 
 main #cards .card .container {
